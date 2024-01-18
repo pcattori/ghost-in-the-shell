@@ -11,10 +11,8 @@ It will still always perform `cd` as normal, but 1/3 of the time it will also us
 ## Install
 
 ```sh
-eval $(curl -sSL https://raw.githubusercontent.com/pcattori/ghost-in-the-shell/main/install.sh boo | sh)
+eval $(curl -sSL https://raw.githubusercontent.com/pcattori/ghost-in-the-shell/main/install.sh | sh)
 ```
-
-The `install.sh` script takes the message as an argument, so feel free to customize that if you want it to say something else.
 
 ## Uninstall
 
