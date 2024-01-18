@@ -20,5 +20,5 @@ case $shell in
 	;;
 esac
 
-echo "alias cd='$ghost || cd'" >>$rc
+echo "\nalias cd='$ghost || cd'" >>$rc
 echo "source $rc && clear"
